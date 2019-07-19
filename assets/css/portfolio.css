@@ -1,0 +1,103 @@
+body {
+    height: 100%;
+    font-family: 'Trocchi', serif;
+    background-color: #fceeee;
+}
+.cici-logo{
+    margin: 20px;
+    height: 150px;
+}
+h1{
+    font-family: 'Handlee', cursive;
+    color: #fceeee;
+    float: right;
+    margin: 20px;
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/sensei-minimal-F3AblJa7Ys8-unsplash.jpg");
+    /* Photo by Sensei Minimal on Unsplash */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+hr{
+    border-top: 2px dotted rgb(228, 163, 163);
+    width: 25%;
+}
+#navbar {
+    background-color: rgb(29, 29, 29);   
+    position: fixed; 
+    top: -50px;
+    width: 100%;
+    transition: top 0.3s;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+p{
+    text-align: center;
+}
+.short-me-row{
+    width: 100%;
+    height: 250px;
+}
+.me-img{
+    width: 50%;
+    height: 120px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.target-img{
+    width: 50%;
+    height: 120px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.int-img{
+    width: 50%;
+    height: 120px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.about-me-row{
+    width: 100%;
+    height: 400px;
+}
+.about-img{
+    width: 50%;
+}
+
+@media screen and (max-width: 992px){
+    header{
+        height: 300px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    header{
+        height: 250px;
+    }
+}
