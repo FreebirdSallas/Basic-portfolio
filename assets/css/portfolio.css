@@ -1,7 +1,7 @@
 body {
     height: 100%;
     font-family: 'Trocchi', serif;
-    background-color: #fceeee;
+    background-color: #fcf5f5;
 }
 .cici-logo{
     margin: 20px;
@@ -9,7 +9,7 @@ body {
 }
 h1{
     font-family: 'Handlee', cursive;
-    color: #fceeee;
+    color: #f8baba;
     float: right;
     margin: 20px;
 }
@@ -48,10 +48,12 @@ hr{
 }
 p{
     text-align: center;
+    color: rgb(226, 163, 163);
 }
 .short-me-row{
     width: 100%;
     height: 250px;
+    
 }
 .me-img{
     width: 50%;
@@ -83,11 +85,30 @@ p{
 .about-me-row{
     width: 100%;
     height: 400px;
+    margin-bottom: 80px;
 }
 .about-img{
-    width: 50%;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
 }
-
+.about_write{
+    color: rgb(82, 65, 47);
+}
+.about_p{
+    text-align: center;
+    float: right;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+.my-work-div{
+    background-color: rgba(19, 59, 119, 0.584);
+    width: 100%;
+}
+.text-center{
+    margin-bottom: 45px;
+}
 @media screen and (max-width: 992px){
     header{
         height: 300px;
