@@ -1,124 +1,46 @@
-body {
-    height: 100%;
-    font-family: 'Trocchi', serif;
-    background-color: #fcf5f5;
+body{
+    font-family: 'Libre Franklin', sans-serif;
 }
-.cici-logo{
-    margin: 20px;
-    height: 150px;
-}
-h1{
-    font-family: 'Handlee', cursive;
-    color: #f8baba;
-    float: right;
-    margin: 20px;
-}
-header{
-    height: 600px;
-    width: 100%;
-    background-image: url("../images/sensei-minimal-F3AblJa7Ys8-unsplash.jpg");
-    /* Photo by Sensei Minimal on Unsplash */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size:100% 100%;
+h3{
+    font-family: 'Gothic A1', sans-serif;
+    color: rgb(118, 165, 149);
+    font-size: 60px;
 }
 hr{
-    border-top: 2px dotted rgb(228, 163, 163);
-    width: 25%;
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(97, 95, 95, 0.75), rgba(0, 0, 0, 0));
 }
-#navbar {
-    background-color: rgb(29, 29, 29);   
-    position: fixed; 
-    top: -50px;
-    width: 100%;
-    transition: top 0.3s;
+span{
+    padding-right: 10px;
+    padding-top: 10px;
 }
-#navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 17px;
+.article{
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-top: -70px;
 }
-#navbar a:hover {
-    background-color: #ddd;
-    color: black;
-}
-p{
-    text-align: center;
-    color: rgb(226, 163, 163);
-}
-.short-me-row{
-    width: 100%;
-    height: 250px;
-    
-}
-.me-img{
-    width: 50%;
-    height: 120px;
-    padding-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.target-img{
-    width: 50%;
-    height: 120px;
-    padding-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.int-img{
-    width: 50%;
-    height: 120px;
-    padding-bottom: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.about-me-row{
-    width: 100%;
+.card-img{
+    border-radius: 0px;
     height: 400px;
-    margin-bottom: 80px;
 }
-.about-img{
-    width: 300px;
-    height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.nav{
+    background-color: #F4F9F4;
+}
+.nav-link{
+color: #74B49B;
+}
+.rounded-circle{
+    height: 220px;
+    width: 220px;
     position: absolute;
+    z-index: 1;
+    margin-top: -475px;
+    margin-left: 450px;
 }
-.about_write{
-    color: rgb(82, 65, 47);
-}
-.about_p{
-    text-align: center;
-    float: right;
-    word-spacing: 4px;
-    font-size: 20px;
-}
-.my-work-div{
-    background-color: rgba(19, 59, 119, 0.584);
-    width: 100%;
-}
-.text-center{
-    margin-bottom: 45px;
-}
-@media screen and (max-width: 992px){
-    header{
-        height: 300px;
-    }
-    h1{
-        font-size: 30px;
-    }
-}
-@media screen and (max-width: 600px){
-    header{
-        height: 250px;
-    }
+footer{
+    background-color: rgb(65, 87, 78);
+    color: lightgray;
+    margin-top: 50px;
+    height: 88px;
 }
