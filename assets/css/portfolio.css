@@ -1,46 +1,98 @@
 body{
     font-family: 'Libre Franklin', sans-serif;
 }
+/* small touch up's */
+h1{
+    color: rgb(36, 53, 47);
+    margin-top: 20px;
+}
 h3{
     font-family: 'Gothic A1', sans-serif;
     color: rgb(118, 165, 149);
-    font-size: 60px;
+    font-size: 50px;
+    font-weight: bold;
 }
-hr{
+h4{
+    font-family: 'Gothic A1', sans-serif;
+    padding-top: 8px;
+    color: rgb(174, 185, 181); 
+}
+p{
+    font-size: 25px;
+}
+.hr-one{
     border: 0;
     height: 1.5px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(97, 95, 95, 0.75), rgba(0, 0, 0, 0));
+}
+.hr-two{
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(28, 43, 35, 0.75), rgba(0, 0, 0, 0));
 }
 span{
     padding-right: 10px;
     padding-top: 10px;
 }
-.article{
-    margin-right: 55px;
-    margin-left: 55px;
-    margin-top: -70px;
+/* images */
+.about-img{
+    width: 100%; 
+    height: 620px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6
 }
-.card-img{
+.project-img{
+    width: 100%; 
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6
+}
+.home-img{
     border-radius: 0px;
     height: 400px;
 }
-.nav{
-    background-color: #F4F9F4;
+/* image of myself */
+.me-two{
+    height: 150px;
+    width: 150px;
+    margin-bottom: -153px;
+    z-index: 1;
+    position: relative;
+    margin-left: 328px;
 }
-.nav-link{
-color: #74B49B;
-}
-.rounded-circle{
+.me-one{
     height: 220px;
     width: 220px;
     position: absolute;
     z-index: 1;
-    margin-top: -475px;
+    margin-top: -415px;
     margin-left: 450px;
 }
+/* the body elements */
+.content{
+    min-height: 100%;
+}
+.nav{
+    background-color: #F4F9F4;
+    margin-top: 0px;
+}
+.nav-link{
+color: #74B49B;
+}
+.home-article{
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-top: -70px;
+}
+.contact-div{
+    margin-left: 360px;
+    margin-top: 80px;
+}
 footer{
-    background-color: rgb(65, 87, 78);
-    color: lightgray;
-    margin-top: 50px;
-    height: 88px;
+    margin-top: auto;
+    color: rgb(45, 56, 49);
 }
